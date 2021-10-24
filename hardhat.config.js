@@ -22,8 +22,8 @@ const url = process.env.API_KEY;
 module.exports = {
   networks: {
     ropsten: {
-      url: 'https://eth-ropsten.alchemyapi.io/v2/LKYTduEsHLUpSKzMYj2QPV9SsHM3vzLK',
-      accounts: ['c93313d7ce41aea132c7300431548c39ce307af5e46ea8a01fea3813a2db00e2'],
+      url: 'https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
+      accounts: ['0xc93313d7ce41aea132c7300431548c39ce307af5e46ea8a01fea3813a2db00e2'],
     }
   },
   solidity: "0.8.4",
